@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #5f9bce;
+}
+
+img{
+    width: 15px;
+    color: #5f9bce;
+}
+
+li{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;   
+    display: inline;
+    border: 10px;
+    margin: 10px;
+    color: #5f9bce;
+    font-weight: bold;
+}
+
+.lista{
+    font-family: 'Chivo',sans-serif;
+    font-weight: 400;
+}
+
+.fas{
+    font-size: 30px;
+    color: #5f9bce;
+    float: right;
+    margin: 80px;
+
+}
+.logo{
+    color:#5f9bce;
+    font-size: 22px;
+    font-weight:100%;
+    position: fixed;
+    margin-left: 10px;
+    padding-left: 200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px grey;
+    z-index: 50;
+    align-items: center;
+    background: white;
+    box-sizing: border-box;
+    height: 70px;
+    left: 0;
+    padding: 0 12px;
+    top: 0;
+    width: 100%;
+
+}
+
+section{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    min-height: 100%;
+    padding: 0 0 56px;
+    position: relative;
+}
+
+.container1{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.container1 h1{
+    color: #5f9bce;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: sans-serif;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;    
+}
+
+.container2{
+    text-align: center; 
+}
+
+.wallpaper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+    height: 559px;
+    width: 778px;
+}
+
+.mapa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    height: 559px;
+    width: 778px;
+    padding: 35px;
+}
+   
+.botao{
+    background-color:#5f9bce;
+    border-radius: 2px;
+    color:#fff;
+    padding: 18px 54px;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+
+}
+.rodape{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner3, .container4{
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleatorio</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            font: 15pt arial normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pagina de sorteio números Aleatorio</h1>
+    <input type="number" name="min" value="0" id="min"><br>
+    <input type="number" name="max" value="0" id="max"><br>
+    <button onclick="sorteio()">Sorteio</button>
+
+    <h1 id="resultado"></h1>
+
+    <script>
+        function sorteio () {
+            const min = document.getElementById("min").value;
+            const max = document.getElementById("max").value;
+            const sort = Math.floor((Math.random() * max)+min);
+            document.getElementById("resultado").innerHTML = 'O número aleatorio é: ' + sort;
+        }
+
+    </script>
+    
+</body>
+</html>

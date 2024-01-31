@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+h1{
+
+    text-align: center;
+}
+
+.container{
+    font-family: arial;
+    
+    color: #b2b2b2;
+   
+    border-radius: 4px;
+   gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+    
+}
+
+.bike{
+    background-color: #111;
+    display: grid;
+    width: 400px;
+    
+}
+
+.carro{
+    background-color: #111;
+    display:grid;
+    width: 400px;
+    
+}
+
+button{
+    color: #111;
+    background-color: #febe01;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+span{
+    color: #febe01;
+}
+

@@ -1,0 +1,52 @@
+/*#paragrafos{
+    color: red;
+    background-image: url(../Aula\ 1/bolinhas.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: local;
+   
+}
+
+.subclass{
+    background-color: yellow;
+    color:rgb(235, 50, 37);
+}*/
+
+#paragrafos{
+    font-weight: bold;
+}
+
+#titulo{
+    color:#79e421;
+}
+.texto_verde{
+    color:rgb(18, 235, 18);
+}
+
+.container{
+    width: 50vmin;
+    background: red;
+}
+
+.inside{
+    width: 100%;
+
+}
+
+#base{
+    height: 10px;
+    background: red;
+}
+
+#container{
+    background: blue;
+    color:white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.borda{
+
+    border: 5px dashed blue;
+
+}

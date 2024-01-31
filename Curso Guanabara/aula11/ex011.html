@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+
+<body>
+
+    <h1>Nacionalidade</h1>
+
+    <label>Escolha sua nacionalidade: </label>
+
+    <select name="Nacionalidade" id="Nacionalidade">
+        <option value="Americano">Americano</option>
+        <option value="Brasileiro">Brasileiro</option>
+        <option value="Holandes">Holandes</option>
+        <option value="Sueco">Sueco</option>
+    </select>
+    <input type="button" value="Verificar" onclick="nac()">
+
+    <div id="res"></div>
+
+
+    <script>
+
+        function nac() {
+
+            var select = document.getElementById("Nacionalidade");
+            var option = select.options[select.selectedIndex];//pega dentro select o texto
+            var escreve = document.getElementById("res");
+            var img = document.createElement('img');
+            
+
+            if (option.text == "Brasileiro") {
+                escreve.innerHTML = "<p>Brasileiro</p>";
+
+            } else if (option.text == "Sueco") {
+                escreve.innerHTML = "<p>Sueco</p>";
+                img.setAttribute('src', "https://www.estudopratico.com.br/wp-content/uploads/2017/02/significado-da-bandeira-da-suecia.jpg")
+
+            } else if (option.text == "Holandes")
+                escreve.innerHTML = "<p>Holandes</p>"
+            else {
+                escreve.innerHTML = "<p>Americano</p>"
+            }
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+body{
+    color: black;
+    width: 400px;
+    height: 200px;
+    background-image:url(backgorund.png);
+    background-repeat: no-repeat;
+    font-family: times;
+    font-weight: 200;
+    }
+    
+h1{
+    font-weight: 200; 
+    letter-spacing: 10px;
+    text-transform: capitalize;
+        
+}
+li{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}

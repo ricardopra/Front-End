@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha calculadora</title>
+    <style>
+        body{
+            background-color: rgba(42, 173, 173, 0.416);
+        }
+        button {
+            font: 15pt normal arial;
+            display: inline-block
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Minha calculadora</h1>
+
+    <label>Primeiro Número </label> <input id="n1" type="number" ><br><br>
+    <label>Segundo Número </label> <input id="n2" type="number" ><br><br>
+
+
+    <button onclick="somar()">Somar</button>
+
+    <button onclick="subtração()">Subtração</button>
+
+    <button onclick="divisão()">Divisão</button>
+
+    <button onclick="multiplicação()">multiplicação</button>
+
+    <br></br>
+    O resultado é <span id="res"> </span>
+
+    <script>
+        var n1 = document.getElementById("n1");
+        var n2 = document.getElementById("n2");
+        var resultado = document.getElementById("res");
+
+        function somar(){
+            resultado.innerHTML = Number(n1.value) + Number(n2.value)
+        }
+        function subtração(){
+            resultado.innerHTML = Number(n1.value) - Number(n2.value)
+        }
+        function divisão(){
+            resultado.innerHTML = Number(n1.value) / Number(n2.value)
+        }
+        function multiplicação(){
+            resultado.innerHTML = Number(n1.value) * Number(n2.value)
+        }
+
+    </script>
+
+</body>
+
+</html>
