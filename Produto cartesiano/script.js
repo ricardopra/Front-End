@@ -26,3 +26,12 @@ const cartesianProductLong = (...arrays) => {
 };
 
 console.log(cartesianProductLong(...productAttributes));
+
+
+function imc (peso, altura){
+    let imc = peso * altura;
+    console.log(imc);
+}
+
+
+imc(80, 180)
