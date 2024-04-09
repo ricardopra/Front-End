@@ -26,3 +26,4 @@ const cartesianProductLong = (...arrays) => {
 };
 
 console.log(cartesianProductLong(...productAttributes));
+
